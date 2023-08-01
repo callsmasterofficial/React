@@ -1,0 +1,260 @@
+:root {
+  --dark-blue: #1d1f3e;
+  --dark-blue-card: #262845;
+  --neon-green: #69f0ae;
+  --my-blue : #0563bb;
+  --my-black : #45505b;
+  font-family: sans-serif;
+  height: 100%;
+  overflow-x:hidden;
+}
+* {
+  /* border-radius: 0!important ; */
+  font-family: sans-serif;
+}
+.top-name{
+  font-family: sans-serif;
+  font-size: 1.5em; 
+  font-weight: bold;
+  text-decoration: none;
+}
+.container-fluid{
+  padding: 3% 15%; 
+  padding-bottom: 5rem;
+ } 
+.main-text{
+  padding-top: 10rem; 
+  padding-bottom:1rem;
+ }
+.my-name{
+  /* color: white; */
+  font-family: sans-serif;
+  /*position: absolute;
+  top: 25%;
+  left: 10%;*/
+  font-size: 3em;
+  font-weight: bold;
+
+}
+#photo{
+  border-color: #45505b;
+  /* border-radius: 50%; */
+  border-width: 2px;
+  border-style: solid;
+
+}
+
+.btn-outline-light{
+  padding: 1%;
+  font-size: 1.15em;
+  font-family: sans-serif;
+  border-color: var(--my-blue);
+  margin: 5% 3% 5% 0;
+}
+.para-text{
+  font-family: sans-serif;
+  color: black;
+}
+td {
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+}
+/* about page */
+/* --------------------------------------------------------------*/ */
+.about-nav{
+  text-decoration: none;
+  font-family: sans-serif;
+  /* color: #f2f2f2!important; */
+}
+.nav-pills .pill-1 .nav-link:not(.active) {
+  background-color: transparent;
+  color:black;
+}
+.nav-pills .pill-1 .nav-link {
+  background-color: rgb(5,99,187);
+  ;
+}
+.nav-pills .pill-1 .nav-link:hover{
+  background-color: rgb(5,99,187,0.2);
+  color: black;
+}
+#home{
+  padding-bottom: 30%;
+}
+#menu1{
+  padding-bottom: 30%;
+}
+.table-head{
+  font-weight: bold;
+}
+.resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* color: #fff; */
+}
+
+.resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid rgba(5, 99, 187, 0.2);
+  position: relative;
+}
+
+.resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  /* font-weight: 600; */
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: var(--my-blue);
+  margin-bottom: 10px;
+}
+
+.resume-item h5 {
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume-item ul {
+  padding-left: 20px;
+}
+
+.resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: var(--my-blue);
+  border: 2px var(--my-blue);
+}
+.counts {
+  padding: 70px 0 60px;
+}
+
+.counts .count-box {
+  padding: 30px 30px 25px 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background: rgba(25, 200, 255, 0.08);
+}
+
+.counts .count-box i {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  background: rgba(0, 100, 230, 0.1);
+  padding: 12px;
+  color: var(--my-blue);
+  border-radius: 50px;
+}
+
+.counts .count-box span {
+  font-size: 36px;
+  display: block;
+  /* font-weight: 600; */
+  color: black;
+  font-family: sans-serif;
+  /* border-style: solid;
+  border-color: var(--my-blue); */
+}
+
+.counts .count-box p {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+/* skills page */
+.skills .progress {
+  height: 50px;
+  display: block;
+  background: none;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #45505b;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: rgba(5, 99, 187, 0.15);
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: var(--my-blue);
+}
+.interests .icon-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  transition: ease-in-out 0.3s;
+}
+
+.interests .icon-box i {
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+
+.interests .icon-box h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+  color: var(--my-blue);
+}
+
+.interests .icon-box:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+.feature-title {
+  font-size: 1.1rem;
+}
+.feature-box {
+  padding: 4.5%;
+  text-align: center;
+}
+.icon {
+  color: var(--my-blue);
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: rgb(5,99,187, 0.5);
+}
